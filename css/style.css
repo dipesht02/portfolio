@@ -335,7 +335,9 @@ li .profile_title {
 
 /* Blogs Page */
 .blogs_page .blogs_container {
-    margin: 0.4rem;
+  
+    margin: 1.2rem 0.4rem 0.4rem 0.4rem;
+    display: flex;
 }
 
 .blog_box {
@@ -343,12 +345,23 @@ li .profile_title {
     border: 0.1rem solid var(--brand-color);
     padding: 0.5rem;
     border-radius: 0.4rem;
+    width: 50%;
+    margin: 0.6rem;
+    border: 0.1rem solid var(--brand-color);
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    text-align: center;
+    cursor: pointer;
 }
 
 .blog_box .blog_title {
     font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: var(--brand-color);
+    margin: 0.4rem 0;
 }
 
 .blog_box .blog_text {
@@ -358,9 +371,20 @@ li .profile_title {
     text-align: justify;
 }
 
+
+.blogs_box .blogs_text {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.blog_box .img-container {
+    text-align: center;
+}
+
 .blog_box .blog_image {
     width: 100%;
     height: auto;
+
 }
 
 /* Services Page */
